@@ -55,7 +55,7 @@
             
              <div class="form-group">
 
-                <label for="inputEmail">Greetings Question </label>
+                <label for="inputEmail">Kitty's Greetings Question </label>
 
                  <select  type="email" class="form-control" id="question" name="question">
                      
@@ -92,7 +92,7 @@
             
              <div class="form-group">
 
-                <label for="inputEmail">Weather Question </label>
+                <label for="inputEmail">Kitty's Weather Question </label>
 
                  <input  type="text" class="form-control" id="question" name="question">
                       
