@@ -2,7 +2,7 @@
     if(isset($_POST['submit'])){
         $question=$_POST['question'];
         //echo $question;
-        $url="http://localhost/muktosure/GET/grettings.php?q=".urlencode($question);
+        $url="https://muktosure.herokuapp.com/GET/grettings.php?q=".urlencode($question);
         $curl=curl_init($url);
         curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
         $response=curl_exec($curl);
